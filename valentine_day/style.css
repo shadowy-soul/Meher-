@@ -1,0 +1,136 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  width: 100%;
+}
+
+@font-face{
+  font-family: 'hiyos';
+  src: url('Hiyos.otf') format('truetype');
+}
+
+h1{
+  color: #cf4d6f;
+  text-align: center;
+}
+
+
+body{
+  background-color: #f4a4c0;
+  font-family: 'hiyos';
+}
+
+.love {
+  max-width: 200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.answerbuttons {
+  text-align: center;
+  word-spacing: 20px;
+}
+
+
+.links{
+  text-decoration: none;
+  color: #cf4d6f;
+  padding: 15px 26px ;
+  border: 2px solid #cf4d6f;
+  border-radius: 5px;
+  background-color: #ffdccc;
+  
+}
+
+.links2 {
+  text-decoration: none;
+  color: #cf4d6f;
+  padding: 15px 26px ;
+  border: 2px solid #cf4d6f;
+  border-radius: 5px;
+  background-color: #ffdccc;
+  text-align: center;
+  
+}
+
+
+
+a:hover{
+  color: red;
+  border: 2px solid red;
+}
+
+
+h2{
+  color: #cf4d6f;
+  text-align: center;
+}
+
+
+.love2{
+  max-width: 350px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+p{
+  color: #cf4d6f;
+  font-size: 0.5cm;
+}
+
+ul{
+  color: #6d3b49;
+  font-size: 0.6cm;
+  
+}
+
+figcaption{
+  color: #6d3b49;
+  font-size: 0.7cm;
+  text-align: center;
+}
+
+
+.world{
+  text-decoration: none;
+  color: #cf4d6f;
+  padding: 15px 26px ;
+  border: 2px solid #cf4d6f;
+  border-radius: 5px;
+  background-color: #ffdccc;
+  text-align: center;
+ }
+
+
+.container{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+ }
+
+.gallery{
+  display: grid;
+  grid-template-columns: repeat(4, minmax(250px, 1fr)) ;
+  grid-gap: 30px;
+
+ }
+
+.gallery img {
+    width: 100%;
+ }
+
+.hero {
+  background-color: #f4a4c0;
+}
